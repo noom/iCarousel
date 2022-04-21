@@ -30,7 +30,11 @@
 //  3. This notice may not be removed or altered from any source distribution.
 //
 
+#if SWIFT_PACKAGE
+#import "../../iCarousel/iCarousel.h"
+#else
 #import "iCarousel.h"
+#endif
 #import <objc/message.h>
 #import <tgmath.h>
 
