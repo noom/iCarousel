@@ -13,12 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "iCarousel",
-            dependencies: [],
-            path: "iCarousel",
-            exclude: [
-                "Info.plist"
-            ],
-            publicHeadersPath: "iCarousel"
+            dependencies: []
         ),
     ]
 )
